@@ -6,7 +6,10 @@
   "author": "Wenish <Wenish@users.noreply.github.com>",
   "private": true,
   "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
     "lint": "eslint --ext .js,.ts,.vue ./",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue ./",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
